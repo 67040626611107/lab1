@@ -4,7 +4,7 @@ int main () {
 	int digit;
 	int digit2;
 
-	printf("n1 \n n2");
+	printf("n1 \nn2");
 	scanf("%d",&digit);
 	scanf("%d",&digit2);
 	if (digit > digit2) {
