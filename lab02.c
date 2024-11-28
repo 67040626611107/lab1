@@ -10,10 +10,10 @@ int main () {
 	scanf("%d",&digit2);
 	if (digit > digit2) {
 	    printf("N1 > N2\n");
-	    printf("%d",digit);
+	   printf("%d",digit - digit2);
 	} else if (digit < digit2) {
 	   printf("N1 < N2 \n");
-	   printf("%d",digit);
+	   printf("%d",digit2 - digit);
 	}
 	return (0);
 };
